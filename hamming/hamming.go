@@ -9,7 +9,7 @@ func Distance(a, b string) (int, error) {
 
 	var count int
 
-	for i, _ := range a {
+	for i := range a {
 		if a[i] != b[i] {
 			count++
 		}
